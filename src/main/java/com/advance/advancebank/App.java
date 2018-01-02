@@ -13,15 +13,15 @@ public class App {
     public static void main(String[] args) {
        
         final ExternalComponentManager manager;
-        manager = new ExternalComponentManager("35.226.220.222", 5275,false);
+        manager = new ExternalComponentManager("******", 5275,false);
         
-        manager.setSecretKey("advancetest", "Project123");
+        manager.setSecretKey("******", "******");
        
-        manager.setMultipleAllowed("advancetest", true);
+        manager.setMultipleAllowed("******", true);
         try {
             
-            manager.addComponent("advancetest", new AdvanceComponent());
-            //manager.addComponent("advancebank", new AdvanceAbstract());
+            manager.addComponent("********", new AdvanceComponent());
+            //manager.addComponent("*******", new AdvanceAbstract());
             
             while (true) {
                 try {
